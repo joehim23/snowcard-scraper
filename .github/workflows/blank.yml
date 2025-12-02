@@ -27,5 +27,5 @@ jobs:
       - name: Upload output HTML
         uses: actions/upload-artifact@v4
         with:
-          name: snowcard-html
-          path: /home/runner/work/snowcard-scraper/snowcard-scraper/*.html
+          name: snowcard-report
+          path: skigebiete_snowcard.html
